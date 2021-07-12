@@ -36,6 +36,7 @@ namespace HexTecGames.Basics
 
         private readonly List<T> behaviours = new List<T>();
 
+
         public T Spawn()
         {
             if (prefab == null)
